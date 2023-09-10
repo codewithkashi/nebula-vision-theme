@@ -1,0 +1,26 @@
+{
+  "name": "nebula-vision",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.0",
+  "icon": "icon.ico",
+  "publisher": "vscode",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "Abyss",
+        "label": "%themeLabel%",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nebula-vision-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode.git"
+  }
+}
